@@ -1141,6 +1141,7 @@ input[type="button"]:focus {
   margin-bottom: 20px;
   position: center;
   z-index: 1;
+  align-items: center;
 }
 .card .card-checkboxes {
   background-color: #F3F2EE;
