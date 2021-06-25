@@ -12,7 +12,7 @@ const pubsub = new PubSub();
 const app = express();
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
-
+app.use(express.static(__dirname + "/public"));
 
 const formBodyParser = express.urlencoded({extended: false});
 const jsonBodyParser = express.json();
@@ -20,7 +20,7 @@ const messages = [];
 const claims = [];
 const tokens = [];
 const {PUBSUB_VERIFICATION_TOKEN} = process.env;
-const TOPIC = "Libros"//process.env.PUBSUB_TOPIC;
+const TOPIC = "newtopic"//process.env.PUBSUB_TOPIC;
 
 const topic = pubsub.topic(TOPIC);
 
