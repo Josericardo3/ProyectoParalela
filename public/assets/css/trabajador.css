@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  margin: 1em 3em;
+  width: 28.5em;
+}
+
+.ice-cream {
+  width: 10em;
+}
+
+section {
+  height: auto;
+  width: 60vw;
+  box-shadow: -2px 8px 23px -1px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -2px 8px 23px -1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -2px 8px 23px -1px rgba(0, 0, 0, 0.4);
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid #00000044;
+  padding-bottom: 2em;
+}
+
+button {
+  font-weight: 600;
+  color: white;
+  background-color: #f2797f;
+  padding: 0.7em 3em;
+  border-radius: 20px;
+  border: 0;
+}
+
+input[type="text"] {
+  width: 10em;
+}
+
+.row-form {
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 3em;
+}
+
+p {
+  margin: 0;
+  margin-right: 1em;
+}

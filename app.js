@@ -27,7 +27,12 @@ const topic = pubsub.topic(TOPIC);
 app.get('/', (req, res) => {
   res.render('index', {messages, tokens, claims});
 });
-
+app.get('/detalles', (req, res) => {
+  res.render('detalles');
+});
+app.get('/trabajador', (req, res) => {
+  res.render('trabajador');
+});
 app.post('/', formBodyParser, async (req, res, next) => {
   if (!req.body.payload) {
     res.status(400).send('Missing payload');
