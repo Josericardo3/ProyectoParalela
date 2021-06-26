@@ -1268,7 +1268,7 @@ input[type="button"]:focus {
   border-color: #68B3C8;
 }
 .wizard-card[data-color="blue"] .choice.active .card-checkboxes {
-  color: #68B3C8;
+  color: #6eb154;
 }
 .wizard-card[data-color="blue"] .wizard-navigation .progress-bar {
   background-color: #68B3C8;
