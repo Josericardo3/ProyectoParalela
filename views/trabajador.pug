@@ -1,0 +1,40 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge,chrome=1')
+  link(rel='apple-touch-icon' sizes='76x76' href='assets/img/apple-icon.png')
+  link(rel='icon' type='image/png' href='assets/img/favicon.png')
+  title Carta Pinkberry
+  meta(content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport')
+  meta(name='viewport' content='width=device-width')
+  // CSS Files
+  link(href='assets/css/bootstrap.min.css' rel='stylesheet')
+  link(href='assets/css/paper-bootstrap-wizard.css' rel='stylesheet')
+  link(rel='stylesheet' href='assets/css/trabajador.css')
+  // Fonts and Icons
+  link(href='https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css')
+  link(href='assets/css/themify-icons.css' rel='stylesheet')
+section
+  header
+    img.logo(src='assets/img/logoHorizontalPink.png' alt='logo pinkberry')
+    h3 TRABAJADOR
+  main
+    div
+      img.ice-cream(src='assets/img/cupLarge.png' alt='large cup')
+      .row-form
+        p Pedido de:
+        input.form-control(name='resultado' type='text' placeholder='Resultado')
+      button Ver
+    div
+      img.ice-cream(src='assets/img/cupMediano.png' alt='medium cup')
+      .row-form
+        p Pedido de:
+        input.form-control(name='resultado' type='text' placeholder='Nombre')
+      button Ver
+    div
+      img.ice-cream(src='assets/img/cupLargeToppings.png' alt='large cup with toppings')
+      .row-form
+        p Pedido de:
+        input.form-control(name='resultado' type='text' placeholder='Nombre')
+      button Ver
