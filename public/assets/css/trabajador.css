@@ -44,7 +44,7 @@ button {
   border: 0;
 }
 
-input[type="text"] {
+span[type="text"] {
   width: 10em;
 }
 

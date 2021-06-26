@@ -13,6 +13,7 @@ body {
   width: 100%;
 }
 
+
 main {
   align-items: flex-end;
   display: flex;
@@ -56,7 +57,7 @@ button {
   margin-bottom: 2em;
 }
 
-input[type="text"] {
+span[type="text"] {
   width: 10em;
 }
 
