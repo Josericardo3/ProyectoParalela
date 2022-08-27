@@ -1,14 +1,15 @@
 'use strict';
 
 const express = require('express');
-//const {OAuth2Client} = require('google-auth-library');
+const {OAuth2Client} = require('google-auth-library');
 const path = require('path');
 const process = require('process');
 const bodyParser = require('body-parser');
-//const {PubSub} = require('@google-cloud/pubsub');
+const {PubSub} = require('@google-cloud/pubsub');
 
-//const authClient = new OAuth2Client();
-//const pubsub = new PubSub();
+
+const authClient = new OAuth2Client();
+const pubsub = new PubSub();
 
 const app = express();
 app.set('view engine', 'pug');
@@ -20,14 +21,16 @@ app.use(express.json({ limit: '50mb' }));
 const messages = [];
 const claims = [];
 const tokens = [];
-/*const {PUBSUB_VERIFICATION_TOKEN} = process.env;
+const {PUBSUB_VERIFICATION_TOKEN} = process.env;
 const TOPIC = "newtopic"//process.env.PUBSUB_TOPIC;
 const pubSubClient = new PubSub();
+
+const topicPath = '';
 
 const topic = pubsub.topic(TOPIC);
 
 const listenForMessages = () => {
-  const subscription = pubSubClient.subscription("sucriptorextractor");
+  const subscription = pubSubClient.subscription("projects/curious-signal-317105/subscriptions/extraer1");
 
   // Create an event handler to handle messages
   let messageCount = 0;
@@ -54,7 +57,7 @@ const listenForMessages = () => {
     console.log(`${messages.length} message(s) received.`);
   }, timeout * 1000);
 }
-*/
+
 
 app.get('/', (req, res) => {
   res.render('index', {messages, tokens, claims});
@@ -65,17 +68,19 @@ app.get('/trabajador', (req, res) => {
 app.get('/detalles', (req, res) => {
   res.render('detalles', {messages, tokens, claims});
 });
-
-/*
+app.get('/recibir', (req, res) => {
+  res.send(messages);
+});
 app.post('/envio', async (req, res, next) => {
   try {
+    console.log(process.env.GOOGLE_APPLICATION_CREDENTIALS)
     if (!req.body.msjstring) {
       res.status(400).send('Missing message');
       return;
     }
 
     const data = Buffer.from(req.body.msjstring);
-    
+    messages.push(JSON.parse(req.body.msjstring));
     const messageId = await topic.publish(data);
     res.status(200).send(`Message ${messageId} sent.`);
   } catch (error) {
@@ -130,7 +135,6 @@ app.post('/pubsub/authenticated-push', async (req, res) => {
     return;
   }
 });
-*/
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {

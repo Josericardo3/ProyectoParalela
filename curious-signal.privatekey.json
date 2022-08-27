@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "curious-signal-317105",
+  "private_key_id": "8449f61b64b56e95868afd882b839b75be52871d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDhaEPEQHRw1bJ\nuooYSti7+weErkUkqupv1Nd0ZsDicDaVpCt2H73K//dVB1hQHToP2H/yrM2xnUog\n7p6AnTnxnvHsT/yed6SQSiLEC8M/oByaKqxIjHAAkY7zEHGTpIv6EoC7PN5cP4jn\nvV1F2OCdFTa7IZACJgL/AQUw0ASttd+vOERHliKOYgLsstjSnMTS2pyepA2F2auM\ns/eMR7eELXYvf7GkujxwsYTq7pNWkg5AYhEXFzYbZbkD1RzA1hdN8ISNtSivOq8F\nLo/E6GTt47C9G1VhFLjKFgIOhLG6vXbeGBG27uny6YAEQud4kA18MTj+Yr5AM/pW\njVKrpfD1AgMBAAECggEAGzjNKkBXbQGR4Uc/987f6xgxvUbYKJlFR6muD65It54g\n82emh2026v8FTAjYQls3XMJrWfm2L77y9a/TUJvTV/ElxJ2EUfndZxtzSLFMj1y2\n7r33O6iV5XZenTfSYFh+BqSx2J/KY7SS1pT2WgWujCBKfPZYyvvI2gEl3Fxx8k9M\nQMJtQP/qQAQdNhDG1jDWRaEmRFMV2GuxjenLl2MIMWKdUQllNsJqE7U2rGFTFt/3\nbbFaG8cEC7W28vj2eAUhlNS/0tSZVX3OUJyOE0oAGnLslu012AZq+CdTS0l7pWrj\nfVLS7he9ZzWjRvk9QL4lEBWFCzUvMjPYqBgEO8EjVwKBgQDr/2fsA/UClvJOkf40\nBc0CBYTXcgSenG37GO8vhxGsOjtuzVyLk0SzQT9ClqOAREi2IhNw5JjbHFFVbN4h\nEG23zW0ZG+TzGKfsvm2Bvg5XpXyzrqliCRXxfaXtEGzh17DjpDIofnjZaP+koskF\n84FuFUpFpPbSd3pc+hwp0nxTgwKBgQDUF/75WgcTFzMuPXF3MgUY2g+P6PutfcR1\nz73WVodnvJ33ZqmWbfF3HRbecjOM1I+d529jGde0r6itIlZKy132GG3apMQK0+oe\nIpfZTJyY9nLwfcrTT5IsL+kIyO65tg9QLfq4wW1sYe6c5WywJ7dxbNyfTNiOzv6U\nw3XEAZhoJwKBgHFGsboemB77FylReCO+WQ3MWlwTVVZQnZW1/TDh80Co3tgraG1y\nbbpg6h1rMuWhYQlTR+ObRid96yhGzkQun4tm5iP0OKvavNes++EXucimHTod7x2o\nYMj+V4N3q9unbTeHG7BGLHmmpXZ/0F+z5v9Q5sqRCQwy3x/7yULlzllDAoGBAMi3\nEMhfh5RsfzYCVc/smWBEdTfGz+8Gt5aai9g8uRXWLVRFZraCw2HrOIo5X0mmm2de\n703E1hsbpbB7b1iHDxvnUIb7KL/qfoQYTsYJN6WWjX3EPd8uTXHdwVZb+XfssJ87\ndCvGecx4/XyjrfEjFPqVgFCNQ+AaSlj0hQ2CSP4/AoGAFW5Aplmvy4gkgBJNdfKl\nJe6aKiIgicVJFWFHge1tyKEgKibN3dgikUkIHfMQ559KGfvc+Ygu4YHRsq5TAUsg\nBkhD/WMgo++2JchVqdO8Obk/mNtpKK83UZwfLETEQ2yW15N1QceA6hlMCH2TtLpq\nPsRuoaWtlXCFjVuMVfpiUeI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pubsub-service-account@curious-signal-317105.iam.gserviceaccount.com",
+  "client_id": "117100243454747632265",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-service-account%40curious-signal-317105.iam.gserviceaccount.com"
+}
